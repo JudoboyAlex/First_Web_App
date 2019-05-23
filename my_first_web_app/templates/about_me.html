@@ -1,0 +1,23 @@
+<h1>Doing Django</h1>
+
+<!-- {% for url in gallery_images %}
+  <img src="{{ url }}" alt="a random placeholder image">
+{% endfor %} -->
+
+<h3>My Skills</h3>
+{% for i in skills %}
+    <ul>
+    <li>
+        {{i}}
+    </li>
+</ul>
+{% endfor %}
+
+<h3>My Interests</h3>
+{% for i in interests %}
+    <ul>
+    <li>
+        {{i}}
+    </li>
+</ul>
+{% endfor %}
