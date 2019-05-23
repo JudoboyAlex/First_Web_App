@@ -7,7 +7,7 @@ def root(request):
     return HttpResponseRedirect('home')
 
 def gallery_page(request):
-    return HttpResponseRedirect('http://127.0.0.1:8000/portfolio')
+    return HttpResponseRedirect('/portfolio')
 
 def home_page(request):
     context = {'name': 'Betty Maker'}
